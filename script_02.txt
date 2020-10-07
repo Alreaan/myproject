@@ -4,4 +4,6 @@ chickwts %>%
   group_by(feed) %>%
   summarise(n = n(),
      average = mean(weight),
-     SD = sd(weight))
+     SDw = sd(weight))
+     
+     
